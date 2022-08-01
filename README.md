@@ -2,12 +2,10 @@
 
 ![standard 2](https://user-images.githubusercontent.com/101133843/182221010-92f2e8fe-c3bb-46ad-8354-9663183351fe.gif)
 
-# Calculadora
-
 ## Linguagem:
 - Ruby
 
-## Instalações de Gem's:
+## Gemfile:
 - gem 'rspec'
 - gem 'pry'
 
@@ -22,6 +20,7 @@ Confira se todas as gem's foram instaladas com sucesso utilizando o comando:
 
 ## Comandos para executar o projeto:
 
+```bash
 # clonar repositório
 git clone https://github.com/PatriciaCompass/RealityStone_patricia_lemos_Compass.git
 
@@ -30,19 +29,24 @@ RealityStone
 
 # instalar dependências
 bundle install
+```
 
 ## Execute o teste no cmder:
 
+```bash
 - $ rspec specs\calculadora_spec.rb
+```
 
 Deve exibir a seguinte mensagem:
 
 Finished in 0.01229 seconds (files took 1.43 seconds to load)
 6 examples, 0 failures
 
-## Para executar testes com erro, basta alterar valores em seu código e executar novamente o comando no seu emulador: 
+## Para executar testes com erro, basta alterar valores em seu código e executar novamente o comando no seu emulador:
 
+```bash
 -> rspec specs\calculadora_spec.rb 
+```
 
 Com isso deve exibir a seguinte mensagem:
 
