@@ -1,5 +1,8 @@
 # RealityStone_patricia_lemos_Compass
 
+
+![standard](https://user-images.githubusercontent.com/101133843/182220310-6e5f8b3f-0866-4009-87f6-3e5529f56664.gif)
+
 Calculadora
 
 Instruções
