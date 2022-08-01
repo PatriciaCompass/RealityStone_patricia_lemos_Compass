@@ -27,5 +27,5 @@ describe('Calculadora') do
 
     it ('Deve dividir os números usando o método de divisão') do
         expect(calculadora.divide(40, 5)).to eq 8
-    end
+    end   
 end
