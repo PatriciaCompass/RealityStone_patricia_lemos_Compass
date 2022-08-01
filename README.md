@@ -1,22 +1,46 @@
 # RealityStone_patricia_lemos_Compass
 
+![standard 2](https://user-images.githubusercontent.com/101133843/182221010-92f2e8fe-c3bb-46ad-8354-9663183351fe.gif)
 
-![standard](https://user-images.githubusercontent.com/101133843/182220310-6e5f8b3f-0866-4009-87f6-3e5529f56664.gif)
+# Calculadora
 
-Calculadora
+## Linguagem:
+- Ruby
 
-Instruções
+## Instalações de Gem's:
+- gem 'rspec'
+- gem 'pry'
 
-Para executar o teste:
+Obs.: Para instalação de dependências, deve executar o comando no cmder:
 
-$ rspec specs\calculadora_spec.rb
+- gem install win32console
+- gem install bundler
+- gem install ruby-debug-ide
+
+Confira se todas as gem's foram instaladas com sucesso utilizando o comando:
+- gem list bundler ruby-debug-ide
+
+## Comandos para executar o projeto:
+
+# clonar repositório
+git clone https://github.com/PatriciaCompass/RealityStone_patricia_lemos_Compass.git
+
+# entrar na pasta do projeto
+RealityStone
+
+# instalar dependências
+bundle install
+
+## Execute o teste no cmder:
+
+- $ rspec specs\calculadora_spec.rb
 
 Deve exibir a seguinte mensagem:
 
 Finished in 0.01229 seconds (files took 1.43 seconds to load)
 6 examples, 0 failures
 
-Para executar testes com erro, basta alterar valores e executar novamente o mesmo comando no seu emulador 
+## Para executar testes com erro, basta alterar valores em seu código e executar novamente o comando no seu emulador: 
 
 -> rspec specs\calculadora_spec.rb 
 
